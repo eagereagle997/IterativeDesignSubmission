@@ -1,5 +1,10 @@
 body {
     background-color: #F0F0F0 !important;
+    font-family:sans-serif;
+}
+
+.noDisplay {
+  display: none;
 }
 
 .warning {
@@ -50,7 +55,6 @@ body {
     position: fixed;
     height: 90%;
     overflow: auto;
-    font-family: Inter;
     z-index: 1;
   }
 
@@ -69,19 +73,33 @@ body {
     
 }
 
-input[type="search"] {
-    background-color : #E9E9E9; 
-    border: none;
-    font-size: 20px;
-    font-family: Inter;
-    text-align: center;
+.sketchImage {
+  transform: rotate(90deg);
+  width:25%;
+  margin-left: 25px;
+}
+.sketchImage1 {
+  width:25%;
+  margin-left: 25px;
+}
+.sketchImage2 {
+  width:45%;
+}
 
-    background-image: url("img/searchGlass.png");
-    background-repeat: no-repeat;
-    background-position-x: 7px;
-    background-position-y: center;
-    
-  }
+.imageContainer {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+
+} 
+
+.imageContainer1 {
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+
+} 
 
 ::placeholder {
     color: #666666;
@@ -103,19 +121,11 @@ input[type="search"] {
     height: 30px;
 }
 
-.CreateNewListingMobile {
 
-    position: fixed;
-    bottom: 25px;
-    right: 25px; 
-
-    display: none;
-
-}
 
 .OtherElements {
     margin-top: 50px;
-    font-family: Inter;
+
     
 }
 
@@ -149,15 +159,15 @@ input[type="search"] {
 .textHolder {
     margin-left: 35px;
     margin-right: 35px;
-    font-family: 'Inter';
+
 }
 
 h2 h3 h4 {
-    font-family: 'Inter' !important;
+
 }
 
 h1 {
-    font-family: 'Inter';
+
     font-size: 32px;
 }
 
@@ -194,24 +204,29 @@ h1 {
     border-radius: 25px;
     background-color: white;
     margin-top: 10px;
-    font-family: Inter;
+
 
   }
 
   p {
     margin-left: 10%;
     margin-right: 10%;
-    font-family: Inter;
+
+  }
+
+  ul {
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
   .link2 {
     margin-left: 10%;
-    font-family: Inter;
+
   }
 
   b {
     font-weight: bold !important;
-    font-family: Inter;
+    
   }
 
   .imgCenter {
@@ -244,36 +259,6 @@ h1 {
 
 h3 {
     font-size: 24px;
-}
-
-.lofiImage {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-}
-
-.lofiImage1{
-    width:75%;
-}
-.lofiImage2{
-    width:75%;
-}
-.lofiImage3{
-    width:75%;
-}
-.lofiImage4{
-    width:75%;
-}
-
-.lofiImage5{
-  width:85%;
-}
-.lofiImage6{
-  width:60%;
-}
-.lofiImage7{
-  width:50%;
 }
 
 

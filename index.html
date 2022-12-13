@@ -2,41 +2,27 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Responsive Redesign Submission</title>
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title>Iterative Design Submission</title>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'> -->
     <link href="styles.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
   </head>
   <body>
-    <div class = "introBlock2">
-        <div class="topBar">
-            <a href="https://eagereagle997.github.io/Portfolio/"><h1 class="nameLink">Eager Eagle</h1></a>
-            <a href="https://eagereagle997.github.io/Portfolio/aboutMe.html"><h2 class="aboutMe">About Me</h2></a>
-        </div>
+    <div class="TopBar shadow p-3">
+        <img class = "SonnetIcon" src = "img/sonnet.png">
     </div>
 
 
-    <div class = "fishElements">
+    <div class = "submissionElements">
         
-        <div class = "TopOfFishBar shadow p-3">
+        <div class = "TitleTextBar shadow p-3">
             <div class="textHolder">
                 <br>
-                <h1>A Very Fishy Responsive Redesign</h1>
+                <h1>Sonnet: An Iterative Design</h1>
                 <br>
-                <h2>Let's Give a Little Context...</h2>
+                <h4>Hi-Fi Mockup Site: </h4> 
+                <a href = "https://www.figma.com/proto/g2sBSFhr7cQSlt5X3vjChO/Sonnet?node-id=2%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A3">Sonnet Hi Fi Mockup</a>
                 <br>
-                <p>
-                    In this project I will be walking you through my process of redesigning an antiquated fish auction website into a modern, responsive interface.
-                    In it's current state, the Aquabid website has many usability problems. 
-                    Through a process of both low and high fidelity protyping, and then translating those prototypes into a webapp, I will develop an end product that is more functional than the origial Aquabid interface, 
-                    and usable across all devices: desktop, mobile, and tablet. 
-                </p>
-                <br>
-
-                <h4>Aquabid.com Original Site: </h4> <a href = "https://www.aquabid.com/cgi-bin/auction/auction.cgi?fwbettashmp">https://www.aquabid.com/cgi-bin/auction/auction.cgi?fwbettashmp</a>
-                <br>
-                <h4>My redesign: </h4> <a href="https://eagereagle997.github.io/AquabidRedesign/">https://eagereagle997.github.io/AquabidRedesign/</a>
                 <br>
             </div>
         </div>
@@ -44,450 +30,282 @@
 
     
     
-        <div class = "Fish shadow p-3 part1">
+        <div class = "BubbleElement shadow p-3 part1">
             <div class = "textHolder">
                 <br>
-                <h2>Part 1: Identifying Usability Problems</h2>
+                <h2>Part 1: So what is Sonnet?</h2>
                 <br>
-                <h3>Picking a Web page</h3>
+                <p>Sonnet AI is a startup that aims to improve the process of writing sales and marketing emails by leveraging advances in Artificial Intelligence, specifically language modeling. Sonnet’s product automates the process of writing personalized sales emails by populating elements with relevant information tailored to individual clients. </p>
                 <br>
-                <p>Aquabid.com is one of the most popular websites on the internet for aquarium hobbyists to buy and sell their fish. It is essentially the Ebay of fish. However, I believe it is hindered by its antiquated and difficult to use interface, especially on the "view listings" pages. As someone who is an enthusiastic aquarium hobbyist, I chose this website to bring awareness to how a refresh of the interface could bring about a better experience for both new and experienced users who use Aquabid. </p>
-                <br>
-                <p>Below is an example screenshot of the aquabid "view listings" interface!</p>
-                <br>
-                <div class = "imgCenter">
-                    <img class = "mainScreenshot" src="img/Aquabid MainPage.png">
-                </div>
-
-                <br>
-
-        
-                <h3>Finding Problems</h3>
-                <br>
-
-                <h4>Problem 1:</h4>
-                <br>
-                <div class = "problemContainer">
-                    <div class = "problemText">
-                        
-                        <h5>Problem:</h5> <p>Large ad space restricts accessibility/visibility of the navigation bar and search bar at top of page.</p>
-                        <br>
-                        <h5>Usability Issues:</h5>  <p>This problem poses issues for both learnability and efficiency. Due to the large ad space it is difficult for both first time users to find where the navbar is located, and reduces the ease by which frequent users could access the navbar. </p>
-                        
-                    </div>
-
-                    <div class = "problemImage">
-                        <img class = "problemImage1" src = "img/problem1.png">
-                    </div>
-                </div>
-                <br>
-                <hr>
-                <br>
-                <h4>Problem 2:</h4>
-                <br>
-                <div class = "problemContainer">
-                    <div class = "problemText">
-                        
-                        <h5>Problem:</h5> <p>The nav and search bar is very small.</p>
-                        <br>
-                        <h5>Usability Issues:</h5>  <p>This poses issues for both learnability and efficiency again as first time users will struggle to even find the nav and search bar, and frequent users would have to take additional time to be precise with their clicks to access the tiny bars. </p>
-                        
-                    </div>
-
-                    <div class = "problemImage">
-                        <img class = "problemImage2" src = "img/problem2.png">
-                    </div>
-                </div>
-                <br>
-                <hr>
-                <br>
-                <h4>Problem 3:</h4>
-                <br>
-                <div class = "problemContainer">
-                    <div class = "problemText">
-                        
-                        <h5>Problem:</h5> <p>There are many key functionalities that are hidden away in the top bar. For example, the account based functionalities are hidden away in this small, arbitrary bar. </p>
-                        <br>
-                        <h5>Usability Issues:</h5>  <p>This poses issues for learnability and memorability, as it is difficult for first time users to find and it would take a while to find for returning users who haven’t used the interface in a while.</p>
-                        
-                    </div>
-
-                    <div class = "problemImage">
-                        <img class = "problemImage3" src = "img/problem3.png">
-                    </div>
-                </div>
-                <br>
-                <hr>
-                <br>
-                <h4>Problem 4:</h4>
-                <br>
-                <br>
-                <div class = "problemContainer">
-                    <div class = "problemText">
-                        
-                        <h5>Problem:</h5> <p>There is a “Show” section that acts as a filter. However it is not very clear on what is being presented, i.e. what is the active filter. </p>
-                        <br>
-                        <h5>Usability Issues:</h5>  <p>This poses issues for learnability and memorability, as it is difficult for first time users to figure out what exactly is being filtered. Same issue could apply with regards to memorability. </p>
-                        
-                    </div>
-
-                    <div class = "problemImage">
-                        <img class = "problemImage4" src = "img/problem4.png">
-                    </div>
-                </div>
-                <br>
-                <hr>
-                <br>
-                <h4>Problem 5:</h4>
-                <br>
-                <br>
-                <div class = "problemContainer">
-                    <div class = "problemText">
-                        
-                        <h5>Problem:</h5> <p>In general, the table rows are very tightly stacked on top of eachother, which can make for difficult reading and navigation. </p>
-                        <br>
-                        <h5>Usability Issues:</h5>  <p>This poses issues for efficiency as users of all types need to be very precise in their clicks in order to make sure they are accessing the right element. </p>
-                        
-                    </div>
-
-                    <div class = "problemImage">
-                        <img class = "problemImage5" src = "img/problem5.png">
-                    </div>
-                </div>
-                <br>
-                <hr>
-                <br>
-                <h4>Problem 6:</h4>
-                <br>
-                <br>
-                <div class = "problemContainer">
-                    <div class = "problemText">
-                        
-                        <h5>Problem:</h5> <p>There is an incomplete (non-exhaustive) list of icons above the table that indicates certain key attributes of an item.</p>
-                        <br>
-                        <h5>Usability Issues:</h5>  <p>In general, icons like these pose issues for learnability and memorability as first time users will be overwhelmed by the amount of icons and what each of them mean. Infrequent returning users will also forget what each icon means leading to bad memorability.  </p>
-                        
-                    </div>
-
-                    <div class = "problemImage">
-                        <img class = "problemImage6" src = "img/problem6.png">
-                    </div>
-                </div>
-
-                <br>
-                <hr>
-                <br>
-                <h4>Problem 7:</h4>
-                <br>
-                <br>
-                <div class = "problemContainer">
-                    <div class = "problemText">
-                        
-                        <h5>Problem:</h5> <p>There is an icon that indicates that a photo is available for the listed fish. However, you need to click onto another page in order to see that photo. It would be better just to have a thumbnail available with the listing on the table. </p>
-                        <br>
-                        <h5>Usability Issues:</h5>  <p>This problem presents issues for learnability, efficiency, and memorability. Yes it is helpful to know that it has a photo, but a user needs to click into a different interface in order to access that photo. Wouldn’t it be better just to have the photo alongside the other listings as a thumbnail to enable comparative shopping?</p>
-                        
-                    </div>
-
-                    <div class = "problemImage">
-                        <img class = "problemImage7" src = "img/problem7.png">
-                    </div>
-                </div>
-
-                <br>
-                <hr>
-                <br>
-                <h4>Problem 8:</h4>
-                <br>
-                <br>
-                <div class = "problemContainer">
-                    <div class = "problemText">
-                        
-                        <h5>Problem:</h5> <p>The column which indicates the amount of time remaining in an auction does not clearly differentiate between those with minutes left vs hours left. </p>
-                        <br>
-                        <h5>Usability Issues:</h5>  <p>This problem presents issues for efficiency as it makes it difficult for all users to compare the time units of each “time remaining” field. It would be better to replace with a format like Replace with  consistent format like: 00h 30m 33s. </p>
-                        
-                    </div>
-
-                    <div class = "problemImage">
-                        <img class = "problemImage8" src = "img/problem8.png">
-                    </div>
-                </div>
-
-                <br>
-                <hr>
-                <br>
-                <h4>Problem 9:</h4>
-                <br>
-                <br>
-                <div class = "problemContainer">
-                    <div class = "problemText">
-                        
-                        <h5>Problem:</h5> <p>The bids column does not actually indicate how many bids are listed for a certain fish. It just has this “buynow” logo that you cannot press on. </p>
-                        <br>
-                        <h5>Usability Issues:</h5>  <p>This presents an issue for efficiency. The buy now icon that is listed provides no other information other than that there is a buy now option available. Wouldn’t it be better suited listing the buy now value? Or even the number of bids on the fish? </p>
-                        
-                    </div>
-
-                    <div class = "problemImage">
-                        <img class = "problemImage9" src = "img/problem9.png">
-                    </div>
-                </div>
-                <br>
-                <hr>
-                <br>
-                <h4>Problem 10:</h4>
-                <br>
-                <br>
-                <div class = "problemContainer">
-                    <div class = "problemText">
-                        
-                        <h5>Problem:</h5> <p>There is a bottom bar with important information like FAQs etc that is hidden away at the bottom. 
-                             </p>
-                        <br>
-                        <h5>Usability Issues:</h5>  <p>This poses an issue for learnability and memorability, as these features are tucked away at the very bottom of the page. Posing an issue for the accessibility for first time and infrequent users. </p>
-                        
-                    </div>
-
-                    <div class = "problemImage">
-                        <img class = "problemImage10" src = "img/problem10.png">
-                    </div>
-                </div>
-
-                <br>
-                <hr>
-                <br>
-                <h4>Problem 11:</h4>
-                <br>
-                <br>
-                <div class = "problemContainer">
-                    <div class = "problemText">
-                        
-                        <h5>Problem:</h5> <p>Lack of header hierarchy 
-                             </p>
-                        <br>
-                        <h5>Usability Issues:</h5>  <p>The lack of header hierarchy creates issues for learnability and memorability as it creates a confusing page structure for new and infrequent users to navigate.  </p>
-                        
-                    </div>
-
-                    <div class = "problemImage">
-                    
-                    </div>
-                </div>
-
-                <br>
-                <hr>
-                <br>
-                <h3>Accessibility</h3>
-                <br>
-                <p>WebAIM WAVE detected numerous accessibility problems with Aquabid.com. The vast majority of these critiques I agreed with, but I do not think it went far enough in its critique as I believe it missed many ways in which the current Aquabid website lacks accessibility. I will begin below by detailing a few key critiques WebAIM WAVE had to offer and whether I agree with those critiques. I will round out by discussing what I think WebAIM WAVE missed. </p>
-                <br>
-
-                <h4>What WebAIM Suggested</h4>
-                <br>
-                <h4>Accessibility Issue 1:</h4>
-                <br>
-                <div class = "problemContainer">
-                    <div class = "problemText">
-                        
-                        <h5>WebAIM WAVE Suggestion</h5> <p>Missing Form Label: A form control does not have a corresponding label. 
-                             </p>
-                        <br>
-                        <h5>My Critique</h5>  <p>I agree with this assessment. Having just an empty field can be confusing for users and provides no guidance to users who are using audible labeling to navigate the website.</p>
-                        
-                    </div>
-
-                    <div class = "problemImage">
-                        <img class = "problemImage11" src = "img/problem11.png">
-                    </div>
-                    
-                </div>
-                <br>
-                <hr>
-                <br>
-                <h4>Accessibility Issue 2:</h4>
-                <br>
-                <div class = "problemContainer">
-                    <div class = "problemText">
-                        
-                        <h5>WebAIM WAVE Suggestion</h5> <p>Very low contrast: Very low contrast between text and background colors
-                             </p>
-                        <br>
-                        <h5>My Critique</h5>  <p>This one I disagree with. The bold red color contrasts fairly well in my opinion against the white and gray background. </p>
-                        
-                    </div>
-
-                    <div class = "problemImage">
-                        <img class = "problemImage12" src = "img/problem12.png">
-                    </div>
-                    
-                    </div>
-                </div>
-                <br>
-                <hr>
-                <br>
-                <h4>Accessibility Issue 3:</h4>
-                <br>
-                <div class = "problemContainer">
-                    <div class = "problemText">
-                        
-                        <h5>WebAIM WAVE Suggestion</h5> <p>Device dependent event handler: An event handler is present that may not be accessible
-                             </p>
-                        <br>
-                        <h5>My Critique</h5>  <p>I agree with this critique. In order to have a table item change color, it must be moused over. Would be better replaced with device agnostic event handler like hover.  </p>
-                        
-                    </div>
-
-                    <div class = "problemImage">
-                        <img class = "problemImage13" src = "img/problem13.png">
-                    </div>
-                    
-                </div>
-                <br>
-                <hr>
-                <br>
-                <h4>What I believe WebAIM missed</h4>
-                <br>
-                <br>
-                <div class = "problemContainer">
-                    <div class = "problemText">
-                        
-                        <h5>Problem Missed</h5> <p>Poor spacing between rows in the table. Most items in the interface are relatively tiny to the frame within which you view the page. This would lead to countless issues in accessibility for those who are visually impaired, have lack of fine motor functions and beyond. 
-                             </p> 
-                    </div>
-
-                    <div class = "problemImage">
-                        <img class = "problemImage14" src = "img/problem14.png">
-                    </div>
-                    
-                </div>
-
             </div>
+        </div>
+            
+        <div class = "BubbleElement shadow p-3 part2">
+            <div class = "textHolder">
+                <br>
+                <h2>Part 2: Sketching and Wireframing</h2>
+                <br>
+                <h3>Pre-Design Thinking</h3>
+                <br>
+                <p>
+                    Before we began sketching interfaces for our Sonnet application we decided as a group that a browser web application would be the most effective interface. The intended users for this application are sales representatives in a wide range of industries. For these users we want to provide a comfortable and familiar experience to the email applications that they use in their daily life. With this in mind we designed the Sonnet interfaces to provide structure in the form of well structured directories, client tags, familiar email interfaces, etc. to help facilitate their navigation throughout the application, while providing them the added value of AI assistance to help them draft sales emails more quickly. 
+                </p>
+                <br>
+                <h3>Sketching</h3>
+                <br>
+                <p>
+                    With the vision from above in mind, we went ahead and designed the following sketches with a focus on diversifying our layouts to generate more ideas. 
+                </p>
+                <br>
+                <h4>Design 1 - Traditional Email Design</h4>
 
-            <div class = "Fish shadow p-3 part2">
-                <div class = "textHolder">
-                    <br>
-                    <h2>Part 2: Visual Redesign</h2>
-                    <br>
-                    <p>
-                        Now that we have identified countless problems with the current Aquabid.com interface, we are now able to generate low and high fidelity prototypes keenly focused on improving the usability of the interface and the general user experience.
-                    </p>
-                    <br>
-                    <br>
-                    <h3>Low-fidelity Wireframing</h3>
-                    <br>
-                    <h4>Browser</h4>
-                    <br>
-                    <div class = "lofiImageContainer">
-                        <div class = "loFiImage">
-                            <img class = "loFiImage1" src = "img/balsalmiq1.png">
-                        </div>
-                    </div>
-                    <br>
-                    <h4>Tablet</h4>
-                    <br>
-                    <div class = "lofiImageContainer">
-                        <div class = "loFiImage">
-                            <img class = "loFiImage2" src = "img/balsalmiq2.png">
-                        </div>
-                    </div>
-                    <br>
-                    <h4>Mobile</h4>
-                    <br>
-                    <div class = "lofiImageContainer">
-                        <div class = "loFiImage">
-                            <img class = "loFiImage3" src = "img/balsalmiq3.png">
-                        </div>
-                    </div>
+                <div class = "imageContainer">
+                    <img class = "sketchImage" src = "img/Iterative Design.png"/>
+                    <img class = "sketchImage" src = "img/Iterative Design 2.png"/>
+                    <img class = "sketchImage" src = "img/Iterative Design 4.png"/>
+                </div>
+                <br>
+                <h4>Design 2 - Embedded Plugin Design</h4>
+
+                <div class = "imageContainer">
+                    <img class = "sketchImage" src = "img/Iterative Design 1.png"/>
+                    <img class = "sketchImage" src = "img/Iterative Design 3.png"/>
+                    <img class = "sketchImage" src = "img/Iterative Design 5.png"/>
 
 
+                </div>
+                <br>
+                <h4>Design 3 - Salesforce-like Design</h4>
+
+                <div class = "imageContainer">
+                    <img class = "sketchImage" src = "img/Iterative Design 7.png"/>
+                    <img class = "sketchImage" src = "img/Iterative Design 6.png"/>
+                    <img class = "sketchImage" src = "img/Iterative Design 11.png"/>
 
 
+                </div>
+                <br>
+                <h4>Design 4 - Pintrest board-like design</h4>
+
+                <div class = "imageContainer">
+                    <img class = "sketchImage1" src = "img/Iterative Design 8.png"/>
+                    <img class = "sketchImage1" src = "img/Iterative Design 10.png"/>
+                    <img class = "sketchImage1" src = "img/Iterative Design 9.png"/>
 
 
+                </div>
+                <br>
+                
 
-                    <br>
-                    <h3>Visual Style Guide</h3>
-                    <br>
-                    
-                    <div class = "lofiImageContainer">
-                        <div class= "loFiImage">
-                            <img class = "shadow p-3 loFiImage4" src = "img/styleGuide.png">
-                        </div>
-                    </div>
-                    <br>
+                
+                <br>
 
-
-
-
-                    <br>
-                    <h3>High-fidelity Wireframing</h3>
-                    <br>
-                    <h4>Browser</h4>
-                    <br>
-                    <div class = "lofiImageContainer">
-                        <div class = "loFiImage">
-                            <img class = "loFiImage5" src = "img/hifiBrowser.png">
-                        </div>
-                    </div>
-                    <br>
-                    <h4>Tablet</h4>
-                    <br>
-                    <div class = "lofiImageContainer">
-                        <div class = "loFiImage">
-                            <img class = "loFiImage6" src = "img/hifiTablet.png">
-                        </div>
-                    </div>
-                    <br>
-                    <h4>Mobile</h4>
-                    <br>
-                    <div class = "lofiImageContainer">
-                        <div class = "loFiImage">
-                            <img class = "loFiImage7" src = "img/hifiPhone.png">
-                        </div>
-                    </div>
-                    <br>
+                <h3>Combining Ideas into a Wireframe</h3>
+                <br>
+                <p>Now with these sketches completed, we discussed as a team which sketch interfaces best demonstrate solutions to Sonnet's goals as a company. We then combined our diverse array of ideas into a single, consolidated set of wireframes to represent our vision for the app.</p>
+                <br>
+                <div class = "imageContainer">
+                    <img class = "sketchImage1" src = "img/login.png"/>
+                    <img class = "sketchImage1" src = "img/Pinterest.png"/>
+                    <img class = "sketchImage1" src = "img/Directory.png"/>
+                </div>
+                <br>
+                <div class = "imageContainer">
+                    <img class = "sketchImage1" src = "img/email.png"/>
+                    <img class = "sketchImage1" src = "img/Profile.png"/>
+                    <img class = "sketchImage1 noDisplay" src = "img/Onboarding.png"/>
                 </div>
             </div>
-
-            <div class = "Fish shadow p-3 part4">
-                <div class = "textHolder">
-                    <br>
-                    <h2>Part 3: Responsive Redesign</h2>
-                    <br>
-                    <p>
-                        Now that we have laid the foundations for the redesign through high and low fidelity prototyping, and crafted a website style sheet we are now able to design and deploy a fully responsive interface. 
-                    </p>
-                    <br>
-                    <p>
-                        Find the link below!
-                    <br>
-                    <a href="https://eagereagle997.github.io/AquabidRedesign/">https://eagereagle997.github.io/AquabidRedesign/</a>
-                    <br>
-                    <div class = "lofiImageContainer">
-                        <div class = "loFiImage">
-                            <img class = "loFiImage5" src = "img/webpage.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
         </div>
 
+        <div class = "BubbleElement shadow p-3 part4">
+            <div class = "textHolder">
+                <br>
+                <h2>Part 3: Mockups</h2>
+                <br>
+                <p>
+                    Now that we have laid the foundations in the previous steps now we are able to build off the wireframe developed and build a full-on high fidelity prototype using Figma, and subject it to a round of critiques. 
+                </p>
+                <br>
+                <h3>Interactive High Fidelity Mockup</h3>
+                <br>
+                <div class = "imageContainer1">
+                    <img class = "sketchImage2" src = "img/Figma1.png"/>
+                    <img class = "sketchImage2" src = "img/Figma2.png"/>
+                </div>
+                <br>
+
+                <p>
+                    Find the link below!
+                </p>
+                <a class = "link2" href = "https://www.figma.com/proto/g2sBSFhr7cQSlt5X3vjChO/Sonnet?node-id=2%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A3">Sonnet Hi Fi Mockup</a>
+                <br>
+                <br>
+                <h3>Mockup Critique in Studio - Feedback</h3>
+                <br>
+                <p>
+                    After designing the hifi prototype, we went and grouped up with other students for a critique session. Here was some of the feedback: 
+                </p>
+                <ul>
+                    <li>In our original iteration we had a pintrest-board like interface as the first screen after log in. General consensus was that the purpose of this page was not clear. As a result, we removed the page altogether in favor of the traditional directory view.</li>
+                    <br>
+                    <li>Another common critique was that there was a lack of consistency across the pages in icons, colors used, buttons, etc. In the final hifi prototype we focused on creating consistency across the pages.</li>
+                    <br>
+                    <li>Some icons were unclear in their functionality in our original design. For example, a back arrow being used for the send button. We replaced these ambigious icons with clearer ones.</li>
+                    <br>
+                    <li>People generally liked the information that was presented on the client page within the interface.</li>
+
+                </ul>
+                <br>
+            </div>
+        </div>
+
+        <div class = "BubbleElement shadow p-3 part4">
+            <div class = "textHolder">
+                <br>
+                <h2>Part 4: User Testing</h2>
+                <br>
+                <p>
+                    User testing is a crucial part of the iterative design process, it provides an avenue to validate assumptions and gauge experiences of actual users.  
+                </p>
+                <br>
+                <h3>Determining Tasks and Testing Instructions</h3>
+                <br>
+                <p>
+                    Our objective in developing a suitable test task was to design a multi-step task that took a user through a complete interaction cycle of Sonnet’s main functionality, while interacting with all the contact points of our high fidelity mockup. To clearly define the task to the user we presented instructions that provided context and highlighted the  step by step subtask objectives. 
+                </p>
+                <br>
+                <h4>Context Statement Presented to Testers</h4>
+                <br>
+                <p>
+                    The interface you will be testing is for an application that generates personalized sales emails written from scratch for each prospect, by selecting and including AI-generated content blocks.
+                </p>
+                <h4>High level Task Description Presented to Testers </h4>
+                <br>
+                <p>
+                    Imagine you worked in sales and often had to send personalized emails to your growing collection of clients. One of your clients just experienced a problem You want to reach out to them via email to pitch how your service can help.                
+                </p>
+                <br>
+                <h4>Extra Details Statement Presented to Testers </h4>
+                <br>
+                <p>
+                    Please note that the interface you will be testing is not an actual website but an interactive mockup made on prototyping software. 
+                    Remember to think aloud as you interact with this interface
+                </p>
+                <br>
+                <h4>Comprehensive Subtask Descriptions</h4>
+                <br>
+
+                    <p><b>Subtask 1: </b> Log in to the application. This prototype will not let you type any text but imagine you did.</p>
+
+                    <p><b>Subtask 2: </b> 
+                        You have not interacted with Jeff Huang in a while, open up this profile to see what is new with him. </p>
+                        
+                        <p>
+                            For this subtask one of our main testing objectives was to observe if user intuitions about how to open up a profile from a directory matched our design’s conceptual model. As such we asked the following questions after this subtask:
+                        </p>
+                        <br>
+                        <ul>
+                            <li>Did you complete the task successfully? [Success: Yes, No]</li>
+                            <li>Overall, this task was: [Rating scale: Very difficult to Very easy]</li>
+                        </ul>
+                    
+                    </p>
+
+                    <p><b>Subtask 3: </b> From Jeff's profile, you can see recent news concerning Jeff and notice his team is experiencing a ransomware attack. Send Jeff an email.</p>
+                    
+                    <p><b>Subtask 4: </b> 
+                        Your company sells cyber security tools to deal with ransomware. How would you use the provided AI content options to send an email to Jeff to pitch your product, while acknowledging his situation? Please note that the AI Content blocks will not auto-populate in this demo but walk us through how you would use them. </p>
+                        
+                        <p>
+                            For this subtask one of our main testing objectives was to observe if the design of the email interface made it obvious to the user how they might use the AI tools to generate text. As such we asked the following questions after this subtask:                        
+                        </p>
+                        <br>
+                        <ul>
+                            <li>Did you complete the task successfully? [Success: Yes, No]</li>
+                            <li>Overall, this task was: [Rating scale: Very difficult to Very easy]</li>
+                        </ul>
+                    
+                    </p>
+                    <p><b>Subtask 5: </b> After sending your email go back to the directory page.</p>
+
+
+                    <br>
+                    <h4>Post Test Questions</h4>
+                    <br>
+                    <p>What frustrated you most about this site?</p>
+                    <p>If you had a magic wand, how would you improve this site?</p>
+                    <p>What did you like about the site?</p>
+                    <p>How likely are you to recommend this site to a friend or colleague (0=Not at all likely, and 10=Very likely)?</p>
+                    <br>
+                
+
+                
+
+                <h3>Testing Videos</h3>
+                <br>
+                <p>
+                    Video 1 Link:
+                </p>
+                <a class = "link2" href = "https://app.usertesting.com/v/3a21084f-86d0-4a67-b150-6cf0883543ff?encrypted_video_handle=d72ff363-a5d6-4355-9cd7-c004208a0eba&shared_via=link">Video 1</a>
+                <br>
+                <br>
+                <p>
+                    Video 2 Link:
+                </p>
+  
+                <a class = "link2" href = "https://app.usertesting.com/v/161b56a7-a3bd-4019-9679-b6ffd15153ef?encrypted_video_handle=eeb02d16-91d8-4346-823b-03cef9e54bdb&shared_via=link">Video 2</a>
+                <br>
+                <br>
+                <p>
+                    Video 3 Link:
+                </p>
+                <a class = "link2" href = "https://app.usertesting.com/v/cd68ae13-897d-4b90-b1c8-f8cb8d1a5f93?encrypted_video_handle=2d009059-693f-4da7-a5aa-97506a5471f6&shared_via=link">Video 3</a>
+
+                <br>
+                <br>
+
+                <h3>Analysis of Results</h3>
+                <br>
+                <h4>Key Takeaways from Testing Results</h4>
+                <br>
+                <ul>
+                    <li>Generally our test results were positive, with a significant number of user interaction choices and observations matching our design intuitions and conceptual model. </li>
+                    <br>
+                    <li>Testers found the interface easy to figure out and straight forward for accomplishing the intended functionality. </li>
+                    <br>
+                    <li>Two users expressed interest in a more sophisticated design while one user appreciated the current simplicity of the design. User demography revealed a correlation between the age of testers and their sentiments regarding sophistication of design. </li>
+                    <br>
+                    <li>Generally our testers commended our consistent color coding and the presented functionality, acknowledging its relevance for the Sales Industry. Our contact management feature was particularly appreciated.</li>
+                </ul>
+                <br>
+                <h4>Subtask Result Discussion</h4>
+                <br>
+                <p><b>Subtask 1 description: </b>Log in to the application. </p>
+                <p><b>Analysis: </b>This was a simple step and as expected all testers were able complete this without an issue.</p>
+                <br>
+                <p><b>Subtask 2 description: </b>Open Jeff’s profile to see what is new with him. </p>
+                <p><b>Analysis: </b>This test was of particular interest to us. Users where able to instinctively figure out that exactly clicking on the name of an entity in the directory list would open up the profile for that entity. This behaviour matched our intuition as was interesting to see. One user selected the checkbox next to the name before selecting the name. </p>
+                <br>
+                <p><b>Subtask 3 description: </b>Send Jeff an email. </p>
+                <p><b>Analysis: </b>All users were able to complete this step very easily, the central placement of the email button and contrasting colour made it obvious to users, and they highlighted this fact while interacting.  </p>
+                <br>
+                <p><b>Subtask 4 description: </b>How would you use the provided AI content options to send an email to Jeff to pitch your product, while acknowledging his situation? </p>
+                <p><b>Analysis: </b>This was by far the most involved step which was expected. User interactions generally matched our expectations however users highlighted some insights and features they would like to see. One recurring comment was the desire for an interface element that displayed multiple variations of generated AI content at each step, from which they could select their choice. </p>
+                <br>
+                <p><b>Subtask 5 description: </b>After sending your email go back to the directory page. </p>
+                <p><b>Analysis: </b>This was a simple step and as expected all testers were able complete this without an issue.</p>
+
+
+                <br>
+            </div>
+        </div>
+
+        
 
 
 
-    </div>
-
-    <div class = "bottomBlock">
-        <h1 class="bottomTitle">Let's stay in touch!</h1>
-
-        <div class="linkContainer">
-            <a href="" class="bottomLink">Linkedin</a>
-            <a href="" class="bottomLink">Github</a>
-            <a href="" class="bottomLink">Resume</a>
-        </div>  
-
+ 
     </div>
 
   </body>
